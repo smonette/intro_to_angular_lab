@@ -7,6 +7,12 @@ MyApp.controller("IndexCtrl", [
   '$scope', function($scope) {
     $scope.title = "My Favorite Movies";
     $scope.checked = true;
+    $scope.word = [
+      {
+        word: 'movie',
+        plural: 'movies'
+      }
+    ];
     return $scope.movies = [
       {
         name: "Amelie"
