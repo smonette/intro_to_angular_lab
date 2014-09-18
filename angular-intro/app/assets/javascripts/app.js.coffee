@@ -14,6 +14,8 @@ MyApp.controller "IndexCtrl", [ '$scope', ($scope) ->
       name: "Young Frankenstein"
     }, {
       name: "The Fault in Our Stars"
+    },{
+      name: "Sharknado"
     }
 
 

@@ -24,6 +24,8 @@ MyApp.controller("IndexCtrl", [
         name: "Young Frankenstein"
       }, {
         name: "The Fault in Our Stars"
+      }, {
+        name: "Sharknado"
       }
     ];
   }
